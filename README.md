@@ -1,27 +1,41 @@
 # Logbook
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.3.
+This is web application for students and professors of medical studies. It is used to track students achievements through study.
+
+There are 3 roles in application
+Admin - He is authored to add new users 
+Professor - He can see list of students and patients.
+Student - He can add new patients and see list of patients.
+
+I made it using MEAN stack, so frontend is Angular based, server is Node.js and MongoDB as database.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Run
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+First start liveserver for an app.
+	**ng serve**
 
-## Running end-to-end tests
+Then navigate to the **backend** folder and start server which will be connected to the database automatically
+  **node app.js**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Usage
 
-## Further help
+To use this app you have to be logged in.
+For admin login use email: admin@logbook.com and password: admin
+For professor login use email: professor@logbook.com and password: professor
+For student login use email: student@logbook.com and password: student
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Note
+
+You can try features, add new users and patients, but every 1. of the month database will be cleared, so you will not be able to make a login with your previous credentials.
+
+## Contact
+
+For all questions and ambiguities contact me by email: **muharembegovic.kerim@gmail.com**
