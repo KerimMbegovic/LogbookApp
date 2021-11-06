@@ -2,10 +2,10 @@
 
 This is web application for students and professors of medical studies. It is used to track students achievements through study.
 
-There are 3 roles in application
-Admin - He is authored to add new users 
-Professor - He can see list of students and patients.
-Student - He can add new patients and see list of patients.
+There are 3 roles in application<br>
+Admin - He is authored to add new users<br> 
+Professor - He can see list of students and patients.<br>
+Student - He can add new patients and see list of patients.<br>
 
 I made it using MEAN stack, so frontend is Angular based, server is Node.js and MongoDB as database.
 
@@ -19,18 +19,18 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Run
 
-First start liveserver for an app.
+First start liveserver for an app ->
 	**ng serve**
 
-Then navigate to the **backend** folder and start server which will be connected to the database automatically
+Then, in another terminal, navigate to the **backend** folder and start server which will be connected to the database automatically -> 
   **node app.js**
 
 ## Usage
 
-To use this app you have to be logged in.
-For admin login use email: admin@logbook.com and password: admin
-For professor login use email: professor@logbook.com and password: professor
-For student login use email: student@logbook.com and password: student
+To use this app you have to be logged in.<br>
+For admin login use email: admin@logbook.com and password: admin <br>
+For professor login use email: professor@logbook.com and password: professor <br>
+For student login use email: student@logbook.com and password: student <br>
 
 ## Note
 
